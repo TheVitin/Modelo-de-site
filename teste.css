@@ -1,0 +1,106 @@
+*{
+    background-color: #eee;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.cabeçalho{
+    text-align: center;
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom:20px;    
+    color: white;
+    font-size: 30px;
+}
+
+
+.rodapé{
+    text-align: center;
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom:20px;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.aheader{
+    background-color: #eee;
+    display:inline-block;
+    font-size: 20px;
+    color: lightblue;
+    text-align:center;
+    padding:10px 20px;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin-left: 20px;
+}
+
+.aheader:hover{
+    background-color: blue;
+    transition: all 0.7s;
+    transform: scale(1.1);
+}
+
+.cabeçalho p{
+    margin-right: 100px;
+    left: 30px;
+    background-color: lightblue;
+    display: inline-block;
+    position: absolute;
+}
+
+.divs{
+    background-color: #fff;
+    border: 2px solid lightblue;
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.td{
+    text-align: center;
+}
+
+#direita{
+    left: 0px;
+    background-color: lightblue;
+    height: 500px;
+    width: 150px;
+    position: absolute;
+    text-align: center;
+}
+
+#esquerda{
+    right: 0px;
+    background-color: lightblue;
+    height: 500px;
+    width: 150px;
+    position: absolute;
+    text-align: center;
+}
+
+.adiv{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 20px;
+    margin-top: 50px;
+    color: #fff;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.adiv:hover{
+    color: blue;
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
